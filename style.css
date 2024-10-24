@@ -1,38 +1,15 @@
-.header-container{
+body{
+    display: flex;
+}
+
+.header{
+    display: flex;
     background-color: #1F2937;
-    flex: 1;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.header-logo{
+.links{
     display: flex;
-    font-family: sans-serif;
-    color: #E5E7EB;
-    font-weight: bold;
-}
-
-.header-links{
-    display: flex;
-    flex: 1;
-    justify-content: flex-end;
-    font-family: sans-serif;
-    color: #E5E7EB;
-    gap: 10px;
-    margin-right: 10px;
-}
-
-.boxes-container{
-    background-color: white;
-}
-
-.quote-container{
-    background-color: #E5E7EB;
-}
-
-.footer-container{
-    background-color: white;
-}
-
-#logo-img{
-    height: auto;
-    width: 100px;
 }
